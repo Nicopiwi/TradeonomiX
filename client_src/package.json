@@ -1,0 +1,33 @@
+{
+  "name": "client_src",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "aos": "^2.3.3",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "material-icons": "^0.2.3",
+    "stocks.js": "^0.0.17",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vee-validate": "^2.1.0-beta.9",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-prism": "^1.0.5",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vue-youtube-embed": "^2.2.1",
+    "vuejs-datepicker": "^1.5.3",
+    "vuesax": "^3.4.1",
+    "vuetify": "^1.2.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

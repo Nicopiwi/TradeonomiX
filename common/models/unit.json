@@ -1,0 +1,30 @@
+{
+  "name": "unit",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "mi unidad"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Una descripcion para la unidad "
+    },
+    "lessons": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

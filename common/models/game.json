@@ -1,0 +1,55 @@
+{
+  "name": "game",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Cash": {
+      "type": "number",
+      "required": true,
+      "default": 1000
+    },
+    "accountValue": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Mi Juego"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "todayDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "isRealTime": {
+      "type": "boolean",
+      "default": false
+    },
+    "watchlist": {
+      "type": [
+        "string"
+      ]
+    },
+    "portfolio": {
+      "type": [
+        "object"
+      ]
+    },
+    "wallet": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

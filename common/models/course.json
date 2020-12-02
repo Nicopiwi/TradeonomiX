@@ -1,0 +1,38 @@
+{
+  "name": "course",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Mi Course"
+    },
+    "Description": {
+      "type": "string",
+      "required": true,
+      "default": "This a description for my course"
+    },
+    "courseImg": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "units": {
+      "type": "hasMany",
+      "model": "unit",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
